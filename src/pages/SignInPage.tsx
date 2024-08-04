@@ -24,6 +24,7 @@ const SignInPage: React.FC = () => {
 
   return (
     <div className="container mx-auto mt-10">
+      <p style={{ opacity: 0.5 }}>IMPORTANT: Backend Server is deployed on Render(slow api service - can take 50 sec on first time load, Please Be Patient. Thanks! )</p>
       <h2 className="text-2xl mb-4">Sign In</h2>
       <p style={{ opacity: 0.5 }}>Hint: Use Email: "john@example.com" & Password: "password123" For Seeing Existing Data</p>
       <form onSubmit={handleSubmit}>
